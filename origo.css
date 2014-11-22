@@ -18,23 +18,13 @@ h3 {font-size:1.6em; margin:0 0 5px 0;}
 h1,h2,h3 {color:#d06060; font-weight:400; line-height:1.2em; font-family:'Economica', sans-serif;}
 
 /*a[href$='.pdf'] {
-display:inline-block;
-line-height:18px;
-padding-left:18px;
-margin-left:2px;
-margin-right:1px;
-background:transparent url(images/pdficon_small.png) center left no-repeat;
-}
-*/
-
-a[href$='.pdf'] {
   display:inline-block;
   line-height:18px;
   padding-right:18px;
   margin-right:2px;
   margin-left:1px;
   background:transparent url(images/pdficon_small.png) center right no-repeat;
-}
+}*/
 
 
 /* Main layout container */
