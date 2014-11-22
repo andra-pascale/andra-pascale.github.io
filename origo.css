@@ -28,12 +28,12 @@ background:transparent url(images/pdficon_small.png) center left no-repeat;
 */
 
 a[href$='.pdf'] {
-display:inline-block;
-line-height:18px;
-padding-right:18px;
-margin-right:2px;
-margin-left:1px;
-background:transparent url(images/pdficon_small.png) center right no-repeat;
+  display:inline-block;
+  line-height:18px;
+  padding-right:18px;
+  margin-right:2px;
+  margin-left:1px;
+  background:transparent url(images/pdficon_small.png) center right no-repeat;
 }
 
 
@@ -51,7 +51,9 @@ body.wider #layout {margin:40px auto 0; width:1200px;}
 #footer aBig:hover {color:#555; text-decoration:underline;}
 
 /* Grid classes, fixed width, 960px with 12 columns */
-.col {float:left; margin:0 10px; overflow:hidden; float:left; display:inline;}
+.col {float:left; margin:0 10px; overflow:hidden; display:inline;}
+.collist {float:left; margin:0 10px; display:inline;}
+.collist li {line-height: 1.5em}
 .col img {max-width:100%;}
 .row {width:960px; margin:20px auto 0; overflow:hidden;}
 .row .row {margin:0 -10px; width:auto;	display:inline-block;}
