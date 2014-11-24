@@ -1,44 +1,17 @@
+---
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Dimitar Misev's Homepage" />
-    <meta name="keywords" content="Dimitar Misev, array databases, rasdaman, big data, sql, databases, sql/mda" />
-    <meta name="author" content="Dimitar Misev" />
-    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
-    <title>Dimitar Misev</title>
+    {% include head.html %}
   </head>
 
   <body class="light blue smaller freestyle01">
     <div id="layout">
-
-      <div class="row smaller">
-        <div class="col c5 smaller">
-          <h1><a href="index.html">Dimitar Misev</a></h1>
-        </div>
-
-        <div class="col c7 alignright">
-          <p class="slogan">Personal Homepage</p>
-        </div>
-      </div>
+      {% include header.html %}
 
       <div class="row">
-        <div class="col c12 aligncenter">
-          <img src="images/cover.jpg" alt=""/>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col c2 alignleft">
-          <ul class="menu">
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="files/cv_web.pdf">CV</a></li>
-            <li><a href="photo/index.html">Photography</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+        {% include menu.html %}
 
         <div class="collist c10">
           <img src="images/profile.jpg" alt="" style="float:right;margin:0 20px 0 5px; padding:1px; border: 3px solid #EEE;"/>
@@ -49,16 +22,7 @@
         </div>
       </div>
 
-      <div id="footer" class="row">
-        <div class="col c12 aligncenter">
-          <h3> <a target="_blank" href="https://github.com/misev"><aBig>Git</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="http://www.linkedin.com/pub/dimitarmisev"><aBig>Linkedin</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="https://www.openhub.net/accounts/misev"><aBig>Open Hub</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="http://www.researchgate.net/profile/Dimitar_Misev"><aBig>ResearchGate</aBig></a>
-          </h3>
-          <p>&copy; 2014 Dimitar Misev. <a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br /></p>
-        </div>
-      </div>
+      {% include footer.html %}
     </div>
   </body>
 </html>

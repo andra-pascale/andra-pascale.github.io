@@ -1,52 +1,25 @@
+---
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="Dimitar Misev's Homepage" />
-    <meta name="keywords" content="Dimitar Misev, array databases, rasdaman, big data, sql, databases, sql/mda" />
-    <meta name="author" content="Dimitar Misev" />
-    <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" type="text/css" href="origo.css" title="Origo" media="all" />
-    <title>Dimitar Misev</title>
+    {% include head.html %}
   </head>
 
   <body class="light blue smaller freestyle01">
     <div id="layout">
-
-      <div class="row smaller">
-        <div class="col c5 smaller">
-          <h1><a href="index.html">Dimitar Misev</a></h1>
-        </div>
-
-        <div class="col c7 alignright">
-          <p class="slogan">Personal Homepage</p>
-        </div>
-      </div>
+      {% include header.html %}
 
       <div class="row">
-        <div class="col c12 aligncenter">
-          <img src="images/cover.jpg" alt=""/>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col c2 alignleft">
-          <ul class="menu">
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="files/cv_web.pdf">CV</a></li>
-            <li><a href="photo/index.html">Photography</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
+        {% include menu.html %}
 
         <div class="collist c10">
           <ul>
             <li>Peter Baumann and Dimitar Misev. <strong>Science SQL</strong>. In <i>Conference on Big Data from Space, BiDS '14, Frascati, Italy, November 12-14, 2014</i>.</li>
             <li>Dimitar Misev and Peter Baumann. <strong>Extending the SQL Array Concept to Support Scientific Analytics</strong>. In <i>Conference on Scientific and Statistical Database Management, SSDBM '14, Aalborg, Denmark, June 30 - July 02, 2014</i>. ACM, 2014.</li>
             <li>Peter Baumann, Jinsongdi Yu, Dimitar Misev, Kinga Lipskoch, Alan Beccati, and Piero Campalani. <i>Geographical Information Systems: Trends and Technologies</i>, chapter <strong>Preparing Array Analytics the Data Tsunami</strong>. CRC Press, 2014.</li>
-            <li> Piero Campalani, Dimitar Misev, Alan Beccati, Peter Baumann. <strong>Making Time Just Another Axis in Geospatial Services</strong>. <i>20th International Symposium on Temporal Representation and Reasoning (TIME)</i>; 09/2013.</li>
-            <li> J.H.P. Oosthoek, J. Flahaut, A.P. Rossi, P. Baumann, D. Misev, P. Campalani, and V. Unnithan. <strong>PlanetServer: Innovative Approaches for the Online Analysis of Hyperspectral Satellite Data from Mars</strong>. <i>Advances in Space Research</i>, 2013.</li>
+            <li>Piero Campalani, Dimitar Misev, Alan Beccati, Peter Baumann. <strong>Making Time Just Another Axis in Geospatial Services</strong>. <i>20th International Symposium on Temporal Representation and Reasoning (TIME)</i>; 09/2013.</li>
+            <li>J.H.P. Oosthoek, J. Flahaut, A.P. Rossi, P. Baumann, D. Misev, P. Campalani, and V. Unnithan. <strong>PlanetServer: Innovative Approaches for the Online Analysis of Hyperspectral Satellite Data from Mars</strong>. <i>Advances in Space Research</i>, 2013.</li>
             <li>Dimitar Misev. <strong>Sorting in Multi-dimensional Databases</strong>. Master's Thesis. Computer Science, Jacobs University, Bremen, 2012.</li>
             <li>Peter Baumann, Piero Campalani, Dimitar Misev, Jinsongdi Yu. <strong>Finding My CRS: A Systematic Way of Identifying CRSs</strong>. In <i>ACM SIGSPATIAL GIS</i>, November 2012, pp. 71--78.</li>
             <li>Peter Baumann and Dimitar Misev. <strong>Towards Scalable Ad-Hoc Climate Anomalies Search</strong>. In <i>Proceedings of the 1st ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data</i>, BigSpatial '12, pages 101--110, New York, NY, USA, 2012. ACM.</li>
@@ -58,16 +31,7 @@
         </div>
       </div>
 
-      <div id="footer" class="row">
-        <div class="col c12 aligncenter">
-          <h3> <a target="_blank" href="https://github.com/misev"><aBig>Git</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="http://www.linkedin.com/pub/dimitarmisev"><aBig>Linkedin</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="https://www.openhub.net/accounts/misev"><aBig>Open Hub</aBig></a>
-             &nbsp; | &nbsp; <a target="_blank" href="http://www.researchgate.net/profile/Dimitar_Misev"><aBig>ResearchGate</aBig></a>
-          </h3>
-          <p>&copy; 2014 Dimitar Misev. <a href="http://andreasviklund.com/templates/origo/">Template design</a> by <a href="http://andreasviklund.com/">Andreas Viklund</a><br /></p>
-        </div>
-      </div>
+      {% include footer.html %}
     </div>
     </div>
   </body>
